@@ -16,3 +16,7 @@ Footer alinhado à parte inferior da tela(position "absolute", bottom: 0), com u
 
 Foi criado um botão que quando é clicado abre um mapa do Google Maps e muda o display da ‘div’  pra “flex”, e muda o ‘value’ do botão pra “Fechar Mapa”.
 Se o botão ja foi clicado e você queira fechar o mapa, o javascript muda o display do mapa pra “none” e altera o “value” do botão de novo
+
+## Criando Responsividade
+
+Foi criado um @media para adequar o header para diferentes tamanhos de tela
