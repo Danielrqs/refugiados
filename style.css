@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 120px;
+    box-shadow: 1px 1px 1px 1px #f7f7f7;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: 1024px;
+    margin: auto;
+}
+
+.headerList {
+    list-style: none;
+    color: #212127;
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.headerList:hover {
+    filter: brightness(0.95);
+    background-color: #212127fa;
+    padding: 10px;
+    color: #fff;
+}
+
+.logoRef {
+    width: 110px;
+}
+
+section {
+    margin: auto;
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 80px;
+}
+
+.contentSection {
+    width: 100%;
+    padding-bottom: 30px;
+    background-color: #ddd;
+    color: #212127;
+    text-align: center;
+}
+
+.refugiadosPhoto {
+    width: 100%;
+    height: 180px;
+}
+
+h1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.textContent {
+    margin: auto;
+    max-width: 940px;
+    margin-top: 8px;
+}
+
+.textContent2 {
+    margin: auto;
+    max-width: 940px;
+    margin-top: 16px;
+}
+
+input[type="submit"] {
+    margin-top: 2.3rem;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: #212127;
+    color: #fff;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #212127e7;
+}
+
+#titlemap{
+    display: none;
+    margin: auto;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    display: none;
+
+}
+
+footer {
+    height: 160px;
+    width: 100%;
+    margin-top: 80px;
+    background-color: #212127de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#map {
+    width: 300px;
+    height: 150px;
+    background-color: red;
+    margin: auto;
+    margin-top: 10px;
+    display: none;
+}
+
+form {
+    display: grid;
+    width: 130px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+form input {
+    padding: 7px;
+    margin-bottom: 5px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+}
+
+form h2 {
+    margin-bottom: 20px;
+}
+form p {
+    font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+    
+    header {
+        max-width: 100%;
+        height: 200px;
+    }
+    
+    .headerContent {
+        display: grid;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logoRef {
+        margin: auto;
+    }
+}

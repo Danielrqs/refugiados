@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="headerContent">
+            <img class="logoRef" src="./images/unhcr.png" alt="Logo">
+            <ul>
+                <li class="headerList">Home</li>
+                <li class="headerList">Notícias</li>
+                <li class="headerList">Sobre Nós</li>
+                <li class="headerList">Contato</li>
+            </ul>
+        </div>
+    </header>
+
+    <section>
+        <img class="refugiadosPhoto" src="./images/refugiados.png" alt="Refugiados">
+        <div class="contentSection">
+            <h1>Acolhimento de Refugiados</h1>
+            <p class="textContent">Existem os refugiados de guerras, pessoas que saem de suas cidades porque nelas há
+                uma guerra, com bombardeios e invasão de soldados.
+                Existem os refugiados políticos, pessoas que fogem de seu país de origem por repressão política,
+                situação que normalmente acontece em ditaduras.
+                Existem os refugiados climáticos, pessoas que fogem de sua terra natal por ela sofrer a ação de eventos
+                naturais climáticos.
+            </p>
+            <p class="textContent">
+                Existem também os refugiados que deixam seus países de origem por crises sociais e econômicas que
+                provocam colapsos no modo de vida,
+                chegando ao ponto de faltar comida e insumos básicos, além de aumentar consideravelmente o nível da
+                violência local.
+            </p>
+            <p class="textContent2">
+                Portanto, toda ajuda para melhor acolher essas pessoas é de fundamental importância.
+            </p>
+            <h2 id="titlemap">Localização para Doação</h2>
+            <div id="map"></div>        
+            <input id="buttonMap" onclick="toggleMapa()" value="Ver Mapa" type="submit">
+
+            <form>
+                <h2>Login</h2>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <p>Não tem conta? <a href="#">Registre-se</a></p>
+                <input type="submit" value="Entrar">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <h4>® Todos os direitos reservados.</h4>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+</body>
+
+</html>
